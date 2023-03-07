@@ -46,8 +46,9 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
 }
-.card .btn :hover {
+.card .btn:hover {
   cursor: pointer;
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
 }
 .card .btn img {
   display: block;

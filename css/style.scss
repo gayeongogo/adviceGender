@@ -24,10 +24,6 @@ body{
     .title{
         font-size: 14px;
         color: hsl(150, 100%, 66%);
-        #adviceId{
-            
-
-        }
     }
     .advice{
         font-size: 26px;
@@ -47,8 +43,9 @@ body{
         bottom: -30px;
         left: 50%;
         transform: translate(-50%,0);
-        :hover{
+        &:hover{
             cursor: pointer;
+            box-shadow: 0 0 30px hsl(150, 100%, 66%);
         }
         img{
             display: block;
